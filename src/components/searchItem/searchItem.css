@@ -1,0 +1,92 @@
+.searchItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    gap:10px;
+}
+.searchItemWrapper{
+    display: flex;
+    padding:10px;
+    gap:10px;
+    border:1px solid gray;
+    height:250px;   
+}
+.searchItemImage{
+    height:200px;
+    width:300px;
+    flex:1;
+    border-radius: 5px;
+}
+.searchItemDetails{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.searchItemRatings{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px;
+}
+.siRatings{
+    display: flex;
+    justify-content: space-between;
+}
+.siPrice{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.siTaxi{
+    color:white;
+    font-weight: bold;
+    background-color: green;
+    width:max-content;
+    padding:3px;    
+}
+.siCancel{
+    background-color: red;
+    width:max-content;
+    color:white;
+
+}
+.siCancelSubtitle{
+    font-size: 12px;
+    color:grey;
+}
+.siDistance{
+    font-size: 14px;
+}
+.siSubtitle{
+    color:green;
+    font-size: 14px;
+}
+.siTitle{
+    color:#0e3b80;
+}
+.siComment{
+    color:#14522a;
+    font-size: 22px;
+}
+.siRating{
+    background-color: green;
+    border-radius: 10px;
+    border:none;
+    color:white
+}
+.roomPrice{
+    color:#0e3b80;
+}
+.priceTag{
+    font-size: 12px;
+}
+.roomsAvailabilityBtn{
+    background-color: #0e3b80;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    height:25px;
+}

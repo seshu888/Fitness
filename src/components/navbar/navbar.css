@@ -1,0 +1,33 @@
+.navbar{
+    height:50px;
+    background-color:#082d6e;
+    display: flex;
+    justify-content: center;
+}
+.navbarWrapper{
+    width:100%;
+    max-width: 1024px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    align-items: center;
+    font-size: 28px;
+    font-weight:500 ;
+    cursor: pointer;
+    transition: all ease in 500ms;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.navButton{
+    height:25px;
+    width:70px;
+    color:#082d6e ;
+    margin-left: 20px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}

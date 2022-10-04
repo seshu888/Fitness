@@ -1,0 +1,119 @@
+.header{
+    background-color: #082d6e;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headerContainer{
+    width:100%;
+    max-width: 1024px;
+    margin:20px 0 100px 0;
+    color:#dce0e6;
+}
+.headerContainer.listMode{
+    margin:20px 0 0 0; 
+}
+.headerList{
+    display: flex;
+    gap:30px;
+    margin-bottom: 50px;;
+}
+.headerListItem{
+    gap:10px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+.headerListItem.active{
+    border:1px solid white;
+    padding:10px;
+    border-radius: 20px;
+}
+.headerHeading{
+    font-size: 28px;
+}
+.headerDesc{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.regButton{
+    background-color: #0f81d9;
+    border: none;
+    padding:10px;
+    cursor: pointer;
+    height:35px;
+    color:#dce0e6;
+    border-radius: 10px;
+    box-shadow: 2px 5px 0px -6px white;
+}
+.headerSearch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height:40px;
+    border: 2px solid yellow;
+    color:#082d6e;
+    position:absolute; 
+    bottom:-25px;
+    padding:10px 0;
+    border-radius: 5px;
+    width:100%;
+    max-width: 1024px;;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+}
+.headerSearchInput{
+    border:none;
+    outline: none;
+    color:grey;
+}
+.searchIcon{
+    font-size: 24px;
+}
+.searchButton{
+    background-color: #1481b8;
+    border: none;
+    height:30px;
+    border-radius: 5px;
+}
+.date{
+    position: absolute;
+    top:50px;
+    z-index: 2;
+}
+.persons{
+    position: absolute;
+    top:100px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:120px;
+    width:200px;
+    border-radius: 20px;
+    position: absolute;
+    top:40px;
+    z-index: 2;
+    background-color: white;
+    padding:10px;
+}
+.optionItem{
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+}
+.optionCounter{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+}
+.persons{
+    cursor: pointer;
+}

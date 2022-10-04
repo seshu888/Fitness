@@ -1,0 +1,85 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.listWrapper{
+    display: flex;
+    width:100%;
+    max-width:1024px;
+    display:flex;
+    gap:20px;
+
+}
+.listSearch{
+    flex:1;
+    background-color:#f0b513;
+    padding:20px;
+    border-radius:10px;
+    position: sticky;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:max-content;
+
+}
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap:5px;
+    position:relative;
+}
+.lsItem>DateRange{
+    position: absolute;
+    top:20px;
+}
+.lsSearchBtn{
+    background-color: #060b96;
+    color:white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    height:30px;
+}
+.lsOptionsHeading{
+    margin-top: 10px;
+}
+.lsItem>span{
+    font-weight: bold;
+}
+.lsItem>h3{
+    background-color: white;
+    height:30px;
+    border-radius: 20px;
+    padding:5px;
+}
+.lsItem>input{
+    height:30px;
+    border:none;
+    border-radius: 10px;
+    outline:none;
+
+}
+.lsInput{
+    height:30px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    gap: 10px;
+}
+.listResult{
+    flex:3;
+}
+.lsfileds{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.lsfileds>input{
+    width:50px;
+    border: none;
+    outline:none;
+}

@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1024px;
+}
+.footerList{
+    list-style: none;
+    gap:15px;
+}
+.footerListItem{
+    font-size: 18px;
+    gap:10px;
+    cursor: pointer;
+    color:grey;
+}
+.footerListItem:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
